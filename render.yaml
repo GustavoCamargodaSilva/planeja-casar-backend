@@ -2,6 +2,7 @@ services:
   - type: web
     name: planeja-casar-api
     env: node
+    rootDir: .
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     envVars:
